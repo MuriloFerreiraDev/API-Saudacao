@@ -30,23 +30,14 @@ Este é um projeto de exemplo em **Spring Boot** demonstrando o padrão **MVC (M
 O projeto possui a URL base:  
 http://localhost:3000/test
 
-shell
-Copiar código
-
 ### GET `/hello`
 Retorna uma saudação simples.
 
 Exemplo de requisição:  
 GET http://localhost:3000/test/hello
 
-makefile
-Copiar código
-
 Resposta:
 Hello
-
-shell
-Copiar código
 
 ### GET `/bye`
 Retorna uma despedida.
@@ -54,23 +45,14 @@ Retorna uma despedida.
 Exemplo de requisição:
 GET http://localhost:3000/test/bye
 
-makefile
-Copiar código
-
 Resposta:
 Bye
-
-go
-Copiar código
 
 ### GET `/name/{name}`
 Recebe um parâmetro `name` na URL e retorna uma saudação personalizada.
 
 Exemplo de requisição:
 GET http://localhost:3000/test/name/Murilo
-
-makefile
-Copiar código
 
 Resposta:
 Hello Murilo!
